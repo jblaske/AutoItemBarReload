@@ -1,0 +1,12 @@
+name: AutoItemBarReload
+main: com.randomappdev.bukkit.AutoItemBarReload.AutoItemBarReload
+version: 1.7
+website: http://github.com/jblaske
+author: jblaske
+description: >
+             Automatically reloads an item on the item bar with a matching stack in the player's inventory.
+permissions:
+  autoitembarreload.disallow:
+    description: Denies access to AutoItemBarReload.
+    default: false
+softdepend: [Vault]
